@@ -1,6 +1,6 @@
-principal = 1000  # Principal amount in dollars
-rate = 5  # Interest rate in percent
-time = 3  # Time in years
+principal = 1000
+rate = 0.05
+time = 3
 
 # Calculate simple interest
 simple_interest = (principal * rate * time) / 100
