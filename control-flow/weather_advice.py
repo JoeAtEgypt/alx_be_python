@@ -1,5 +1,5 @@
 weaather = (
-    input("What is the weather like? (sunny, rainy, snowy, windy): ").strip().lower()
+    input("What is the weather like? (sunny, rainy, snowy, windy):").strip().lower()
 )
 
 if weaather == "sunny":
