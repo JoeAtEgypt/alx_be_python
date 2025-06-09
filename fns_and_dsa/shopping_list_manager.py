@@ -29,9 +29,8 @@ def main():
         elif choice == "3":
             if shopping_list:
                 print("Current Shopping List:")
-                print(shopping_list)
-                for idx, item in enumerate(shopping_list, 1):
-                    print(f"{idx}. {item}")
+                for _, item in enumerate(shopping_list, 1):
+                    print(item)
             else:
                 print("Shopping list is empty.")
         elif choice == "4":
