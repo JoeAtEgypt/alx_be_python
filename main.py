@@ -1,4 +1,4 @@
-from arithmetic_operations import perform_operation
+from programming_paradigm.robust_division_calculator import perform_operation
 
 
 def main():
